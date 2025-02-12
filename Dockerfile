@@ -13,4 +13,4 @@ COPY . /home/rstudio/
 WORKDIR /home/rstudio
 EXPOSE 8787
 
-CMD ["/usr/lib/rstudio-server/bin/rserver"]
+CMD ["/usr/lib/rstudio-server/bin/rserver"]# Test update
